@@ -2,6 +2,8 @@
 
 Angular v6
 
+(demo)[https://liangshen001.github.io/resize-border/]
+
 ## Usage
 
 `import {ResizeBorderModule} from '../../src/resize-border.module';`
