@@ -1,11 +1,10 @@
 # ResizeBorder v6.0.0
 
+Angular v6
 
-## Requirements
+(demo)[https://liangshen001.github.io/resize-border/]
 
-Angular >= 6.0.0
-
-##Usage
+## Usage
 
 `import {ResizeBorderModule} from '../../src/resize-border.module';`
 
@@ -28,5 +27,5 @@ Angular >= 6.0.0
       i am a absolute element
   </div>`
 
-##Contributers
+## Contributers
 
