@@ -1,4 +1,4 @@
-# ResizeBorder v6.0.0
+# ResizeBorder v1.0.0
 
 Angular v6 component
 
@@ -8,6 +8,10 @@ You can define an element such as a div that can be resized
 [Demo](https://liangshen001.github.io/resize-border/)
 
 [https://stackblitz.com/github/liangshen001/resize-border](https://stackblitz.com/github/liangshen001/resize-border)
+
+## Installation
+
+`npm install --save resize-border`
 
 ## Usage
 
