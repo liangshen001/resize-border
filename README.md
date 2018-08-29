@@ -58,7 +58,7 @@ Positioned element
       i am a absolute element
     </div>
 ```
-| attrabute     | desc    |
+| attribute     | desc    |
 | -------       | :------:   |
 | [resizeTop]   | The top size can change      |
 | [resizeBttom] | The bottom size can change      |
