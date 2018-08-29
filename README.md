@@ -70,18 +70,6 @@ Positioned element
 | [maxWidth]    | ...      |
 | [offset]      | Configure the drag distance of the mouse on the border|
 
-| attrabute     | desc    |
-| -------       | :------:   |
-| [resizeTop]   | The top size can change      |
-| [resizeBttom] | The bottom size can change      |
-| [resizeLeft]  | The left size can change      |
-| [resizeRight] | The right size can change      |
-| [minHeight]   | The minimum height that can be changed can also be configured with CSS min-height      |
-| [minWidth]    | ...      |
-| [maxHeight]   | ...      |
-| [maxWidth]    | ...      |
-| [offset]      | Configure the drag distance of the mouse on the border|
-
 ## Contributers
 
 
