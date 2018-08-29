@@ -1,6 +1,19 @@
 {
   "name": "resize-border",
-  "version": "6.0.0",
+  "version": "1.0.0",
+  "author": "liangshen001 <wangliang520wl@hotmail.com>",
+  "keywords": [
+    "angular",
+    "resize"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangshen001/resize-border.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liangshen001/resize-border/issues"
+  },
+  "homepage": "https://github.com/liangshen001/resize-border#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
