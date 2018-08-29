@@ -8,8 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "build:gh-pages": "ng build --aot --prod --base-href resize-border",
+    "publish:gh-pages": "npx ngh --no-silent --dir=dist/resize-border",
     "packagr": "ng-packagr -p ng-package.json",
     "publish:npm": "npm publish dist"
+
   },
   "private": false,
   "peerDependencies": {

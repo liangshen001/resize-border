@@ -2,21 +2,28 @@
 
 Angular v6
 
-(demo)[https://liangshen001.github.io/resize-border/]
+[Demo](https://liangshen001.github.io/resize-border/)
+
+[https://stackblitz.com/github/liangshen001/resize-border](https://stackblitz.com/github/liangshen001/resize-border)
 
 ## Usage
 
-`import {ResizeBorderModule} from '../../src/resize-border.module';`
+```typescript
+import {ResizeBorderModule} from 'resize-border';
+```
 
-`<div resizeBorder
-      [resizeBottom]="true"
-      [resizeRight]="true"
-      [minHeight]="50"
-      [minWidth]="50">
-     i am a common stream element
- </div>`
+```html
+    <div resizeBorder
+          [resizeBottom]="true"
+          [resizeRight]="true"
+          [minHeight]="50"
+          [minWidth]="50">
+         i am a common stream element
+    </div>
+ ```
 
- `<div style="position:absolute"
+```html
+    <div style="position:absolute"
        resizeBorder
        [resizeTop]="true"
        [resizeBottom]="true"
@@ -25,7 +32,8 @@ Angular v6
        [minHeight]="50"
        [minWidth]="50">
       i am a absolute element
-  </div>`
+    </div>
+```
 
 ## Contributers
 
