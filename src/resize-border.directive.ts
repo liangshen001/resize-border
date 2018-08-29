@@ -54,7 +54,7 @@ export class ResizeBorderDirective implements OnInit {
 
     @Input()
     set minHeight(value: number) {
-        this._minHeight = this.resizeBorderService.minValue(value);
+        this._minHeight = value;
         if (this.element.nativeElement.clientHeight < value) {
             this.renderer.setStyle(this.element.nativeElement, 'height', `${value}px`);
         }
@@ -66,7 +66,7 @@ export class ResizeBorderDirective implements OnInit {
 
     @Input()
     set minWidth(value: number) {
-        this._minWidth = this.resizeBorderService.minValue(value);
+        this._minWidth = value;
         if (this.element.nativeElement.clientWidth < value) {
             this.renderer.setStyle(this.element.nativeElement, 'width', `${value}px`);
         }

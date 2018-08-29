@@ -58,17 +58,22 @@ Positioned element
       i am a absolute element
     </div>
 ```
+
+
 | attribute     | desc    |
 | -------       | :------:   |
-| [resizeTop]   | The top size can change      |
-| [resizeBttom] | The bottom size can change      |
-| [resizeLeft]  | The left size can change      |
-| [resizeRight] | The right size can change      |
+| [resizeTop]   | The top size can change, default is false      |
+| [resizeBttom] | The bottom size can change, default is false      |
+| [resizeLeft]  | The left size can change, default is false      |
+| [resizeRight] | The right size can change, default is false      |
 | [minHeight]   | The minimum height that can be changed can also be configured with CSS min-height      |
 | [minWidth]    | ...      |
 | [maxHeight]   | ...      |
 | [maxWidth]    | ...      |
-| [offset]      | Configure the drag distance of the mouse on the border|
+| [offset]      | Configure the drag distance of the mouse on the border, default is 8px|
+
+
+`note: To facilitate the operation of the minHeight and minWidth property, try to set it to be larger than 8px`
 
 ## Contributers
 
