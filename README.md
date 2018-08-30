@@ -1,4 +1,4 @@
-# ResizeBorder v1.0.1
+# ResizeBorder v1.0.2
 
 Angular v6 component
 
