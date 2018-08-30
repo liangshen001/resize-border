@@ -1,21 +1,18 @@
 div {
     text-align: center;
+    width: 200px;
+    height: 200px
 }
-.div1 {
-    width: 300px;
-    height: 300px;
+.stream-element {
     background: red;
 }
-
-.div2 {
+.float-element {
     position: absolute;
     top: 300px;
     right: 300px;
-    height: 100px;
-    width: 100px;
     background: blue;
 }
-.div3 {
+.absolute-element {
     float: right;
     background: aqua;
 }
