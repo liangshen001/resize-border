@@ -28,13 +28,13 @@ div {
 .stream-element {
     background: red;
 }
-.float-element {
+.absolute-element {
     position: absolute;
     top: 300px;
     right: 300px;
     background: blue;
 }
-.absolute-element {
+.float-element {
     float: right;
     background: aqua;
 }
