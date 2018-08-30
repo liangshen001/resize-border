@@ -1,4 +1,4 @@
-# ResizeBorder v1.0.0
+# ResizeBorder v1.0.1
 
 Angular v6 component
 
@@ -19,44 +19,68 @@ You can define an element such as a div that can be resized
 import {ResizeBorderModule} from 'resize-border';
 ```
 
+```css
+div {
+    text-align: center;
+    width: 200px;
+    height: 200px
+}
+.stream-element {
+    background: red;
+}
+.float-element {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    background: blue;
+}
+.absolute-element {
+    float: right;
+    background: aqua;
+}
+```
+
 Elements in a normal stream
 
 ```html
-    <div resizeBorder
-          [resizeBottom]="true"
-          [resizeRight]="true"
-          [minHeight]="50"
-          [minWidth]="50">
-         i am a common stream element
-    </div>
+<div class="stream-element"
+     resizeBorder
+     [resizeBottom]="true"
+     [resizeRight]="true"
+     [minHeight]="50"
+     [minWidth]="50">
+    i am a common stream element
+</div>
  ```
  
  Floating element
 
 ```html
-    <div style="float: right"
-       resizeBorder
-       [resizeBottom]="true"
-       [resizeLeft]="true"
-       [minHeight]="50"
-       [minWidth]="50">
-      i am a right float element
-    </div>
+<div class="float-element"
+     resizeBorder
+     [resizeBottom]="true"
+     [resizeLeft]="true"
+     [minHeight]="50"
+     [minWidth]="50"
+     [maxHeight]="300"
+     [maxWidth]="300">
+    i am a float element
+</div>
 ```
 
 Positioned element
 
 ```html
-    <div style="position: absolute"
-       resizeBorder
-       [resizeTop]="true"
-       [resizeBottom]="true"
-       [resizeLeft]="true"
-       [resizeRight]="true"
-       [minHeight]="50"
-       [minWidth]="50">
-      i am a absolute element
-    </div>
+<div class="absolute-element"
+     resizeBorder
+     [resizeTop]="true"
+     [resizeBottom]="true"
+     [resizeLeft]="true"
+     [resizeRight]="true"
+     [minHeight]="50"
+     [minWidth]="50">
+    i am a absolute element
+</div>
 ```
 
 
